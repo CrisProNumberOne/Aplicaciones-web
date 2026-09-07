@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Ayuda para poder trabajar con coracteres especiales-->
+    <meta charset="UTF-8">  
+    <!--significa que la pagina puede ser modificada en cualquier momento en el servidor-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="description" content="Aqui va una descripcion corta dek sitio">
+    <title>Mi primera practica</title>
+    <!--Cualquier archivo externo que se utilizara en la pagina-->
+    <link href="style.css" rel="stylesheet">
+    
+    <!--para colocar icono en la pestaña (formato ico para que los navegadores no cambien el formato de la imagen)-->
+    <link name="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!--es recomendable que solo exista un titulo 1 (cio?)-->
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+    <p>Lorem ipsum dolor sit                                                 amet  <b>consectetur adipisicing elit. 
+    <br>Distinctio cum quod, consequuntur architecto quidem atque 
+    <br>ipsum, officia</b> eveniet enim neque inventore blanditiis rerum
+    <br> similique cumque soluta delectus, labore magni exercitationem?</p>
+    <img src="export (7).jpg" alt="Spooky brain">
+    <a href="https://www.google.com" target="_blank">Ir a google</a>
+        <p>hola mundooo</p>
+        <p style="font-size: 600px;">hola</p>
+        <p style="color:red;">holaa</p>
+        <img src="https://imgs.search.brave.com/iXUbgVw-p8WyKR4cfG3Ua9M4E-j4eYZCo-Rlzx68uhc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9RX05QXzJY/XzkwMjIxMS1NTE01/MzQyMjE5MDI5MF8w/MTIwMjMtRS1jdWFk/cm8tZGVjb3JhdGl2/by1kb2ctY2hlbXMt/Y2hlZW1zLW1lbWUt/Zmxvci1rYXdhaWku/d2VicA" alt="cheems">
+      </body>
+</html>

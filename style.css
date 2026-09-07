@@ -1,6 +1,8 @@
 body{
-    background-color: #000000;
-    
+    background-image: url("Fondo imvitación.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 h1{
     font-size: 9rem;

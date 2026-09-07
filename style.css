@@ -1,42 +1,17 @@
 body{
-    background-image: url("Fondo imvitación.jpeg");
+    background-color:#FFFEE6;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-h1{
+h1, h2{
     font-size: 9rem;
-    color: #e708eb;
-    text-align: center;
-}
-h2{
-    color: #e708eb;
-    font-size: 8rem;
-    text-align: center;
-}
-h3{
-    color: #e708eb;
-    font-size: 7rem;
-    text-align: center;
-}
-h4{
-    color: #e708eb;
-    font-size: 6rem;
-    text-align: center;
-}
-h5{
-    color: #e708eb;
-    font-size: 5rem;
-    text-align: center;
-}
-h6{
-    color: #e708eb;
-    font-size: 4rem;
+    color: #E8D8A1;
     text-align: center;
 }
 p{
     font-size: 2rem;
-    color: #fafafa;
+    color: #000000;
     text-align: center;
 }
 img{
@@ -48,7 +23,7 @@ img{
 a{
     font-size: 4rem;
     color: #44ff47
-    font_weight: bold;
+    font-weight: bold;
 }
 a:hover{
     color: #ff0000;

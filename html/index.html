@@ -1,77 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!--Ayuda para poder trabajar con coracteres especiales-->
+    <!--Ayuda para poder trabajar con caracteres especiales-->
     <meta charset="UTF-8">  
-    <!--significa que la pagina puede ser modificada en cualquier momento en el servidor-->
+    <!--significa que la página puede ser modificada en cualquier momento en el servidor-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <meta name="description" content="Aqui va una descripcion corta dek sitio">
-    <title>Memeshop</title>
-    <!--Cualquier archivo externo que se utilizara en la pagina-->
+    <meta name="description" content="Inicio-MemeShop">
+    <title>MemesShop</title>
+    <!--Cualquier archivo externo que se utilizará en la página-->
     <link href="C:\Proyecto1\css\style.css" rel="stylesheet">
     
     <!--para colocar icono en la pestaña (formato ico para que los navegadores no cambien el formato de la imagen)-->
-    <link name="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="../img/cheems.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Archivo+Black&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="C:\Proyecto1\img\cheems.png" alt="" class="logo">
+            <img src="C:\Proyecto1\img\cheems.png" alt="Logo" class="logo">
             <h1>MemesShop</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="index.html" target="_blank">Inicio</a></li>
+                <li><a href="productos.html" target="_blank">Productos</a></li>
+                <li><a href="nosotros.html" target="_blank">Nosotros</a></li>
+                <li><a href="contacto.html" target="_blank">Contacto</a></li>
             </ul>
         </nav>
     </header>  
-    <section class="seccion1">
+    <main>
+         <section class="seccion1">
       <div class="texto-seccion1">
         <h2>Los mejores memes</h2>  
-        <p>Encuentra aqui tus memes favoritos, lo mejor de lo mejor</p>
-        <a href="" class="boton">Ver más memes</a>
+        <p>Encuentra aquí tus memes favoritos, lo mejor de lo mejor. Actualizamos nuestro catálogo cada semana con nuevo contenido.</p>
+        <a href="productos.html" class="boton">Ver más memes</a>
       </div>
-      <img src="C:\Proyecto1\img\Doge-con-lentes-removebg-preview.png" alt="Doge con lentes">
+      <img src="../img/Doge-con-lentes-removebg-preview.png" alt="Doge con lentes">
     </section>
     <section class="seccion2">
         <h2>Productos destacados</h2>
         <div class="producto">
-            <img src="https://imgs.search.brave.com/rVhdoAMypTZgcaQ2j1HM11J06lLsDHvqgiL1ovPsn4M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzQ1ODkzNTQxL3Iv/aWwvOWQ0NGU1LzY0/NTM5NTQ0OTIvaWxf/MzAweDMwMC42NDUz/OTU0NDkyX2FzZjAu/anBn" alt="">
-            <h3>Meme 1</h3>
+            <img src="../img/perrito con lentes.jpg" alt="El Perrito Psicólogo">
+            <h3>El Perrito Psicólogo</h3>
             <p>$100</p>
-            <a href="" class="boton">comprar</a>
+            <a href="productos.html" class="boton">comprar</a>
         </div>
          <div class="producto">
-            <img src="https://imgs.search.brave.com/0noPRkuEhOEk1q-7mNT3DRM2wvqrYw3aKVGRZaGqL_o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS4xMTc5/MTQyNjk3LjA3MzIv/bW8sc21hbGwsZmxh/dGxheSxwcm9kdWN0/X3NxdWFyZSw2MDB4/NjAwLmpwZw" alt="">
-            <h3>Meme 2</h3>
+            <img src="../img/doge musculoso.webp" alt="Doge musculoso">
+            <h3>Doge musculoso</h3>
             <p>$100</p>
-            <a href="" class="boton">comprar</a>
+            <a href="productos.html" class="boton">comprar</a>
+        </div>
+        <div class="producto">
+            <img src="../img/cheems rezando.webp" alt="Cheems rezando">
+            <h3>Cheems rezando</h3>
+            <p>$100</p>
+            <a href="productos.html" class="boton">comprar</a>
         </div>
          <div class="producto">
-            <img src="https://imgs.search.brave.com/T70rtOKZXVek3jdk6QwFz6j-cH3_Yu5zwioT5DAx0Zs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMzU5/NTQ0Mi5qcGc" alt="">
-            <h3>Meme 3</h3>
+            <img src="../img/rana meme.webp" alt="Pepe la rana">
+            <h3>Pepe la rana</h3>
             <p>$100</p>
-            <a href="" class="boton">comprar</a>
-        </div>
-         <div class="producto">
-            <img src="https://imgs.search.brave.com/51z4EulWrUSlCpDs0FNGA5LkurUme1nLL1LaLWpr6fc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzU5L2Vh/LzJhLzU5ZWEyYWQz/ODFjYmEyODhhZDg0/OWNiNmQ3YWE0M2Uz/LmpwZw" alt="">
-            <h3>Meme 4</h3>
-            <p>$100</p>
-            <a href="" class="boton">comprar</a>
+            <a href="productos.html" class="boton">comprar</a>
         </div>
     </section>
     <section class="seccion3">
-        <img class="icono-nosotros" src="https://imgs.search.brave.com/40vALHvKLA4_JtyBSGvw11ZcjK_kqbXV_cnafktzTyk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL3RodW1icy81/ODgzNTlhMzJjOWVi/OTlmYWFmZWE4YmMu/cG5n" alt="">
+        <img class="icono-nosotros" src="..//img/Cara trol.webp" alt="Cara troll">
         <div class="texto-seccion3">
             <h2>Sobre nosotros</h2>
-            <p>En meme shop creemos que los memes son más que chiste, son cultura, son conexión, son diversión.</p>
+            <p>En meme shop creemos que los memes son más que chiste, son cultura, 
+                son conexión, son diversión. Por eso trabajamos día a día para 
+                traerte el contenido más fresco y divertido de internet.</p>
         </div>
     </section>
+    </main>
     <footer>
-        <p>2026 MemeShop. Todos lo derechos reservados</p>
+        <p>2026 MemeShop. Todos los derechos reservados por Cris</p>
     </footer>
 </body>
 </html>

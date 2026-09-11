@@ -1,0 +1,31 @@
+.seccion11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    gap: 100px;
+    padding: 7rem 10rem;
+}
+
+.texto-seccion11 p {
+    text-align: justify;
+    width: 600px;
+}
+
+.seccion11 h2 {
+    margin: 0;
+    color: #7C3AED;
+    text-align: left;
+}
+
+.imagenes-seccion11 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 20px;
+}
+
+.imagenes-seccion11 img {
+    width: 100px;
+    margin: 0;
+}

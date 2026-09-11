@@ -119,9 +119,14 @@ a{
     font-weight: bolder;
 }
 a:hover{
-    color: #F5A623;
+    color: #F472B6;
     cursor: pointer;
     text-decoration: none;
 }
 
 
+/*Morado     #7C3AED / #7B2FF7
+Naranja   #F5A623
+Rosa       #F472B6
+Blanco     #FFFFFF
+Gris osc.  #1F2937*/

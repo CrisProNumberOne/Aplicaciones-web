@@ -1,3 +1,24 @@
-.img3{
-    width: 100%;
+.seccion11 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #FFFFFF;
+    gap: 100px; 
+    padding: 7rem 18.75rem;
+}
+
+.texto-seccion11{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: justify;
+}
+.seccion11 img{
+    width: 300px;
+    margin: 0;
+}
+.seccion11 h2{
+    margin: 0px;
+    color: #7C3AED;
+    text-align: left;
 }
